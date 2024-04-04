@@ -4,6 +4,7 @@ from streamlit_chat import message
 from chain.session import Session
 from chain.constants import MemoryType, ChainType
 import time
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -94,7 +95,7 @@ if generate_answer:
         try:
             sources = set(
                 [
-                    doc.metadata["source"]
+                    os.path.basename(doc.metadata["source"])
                     for doc in generated_response["source_documents"]
                 ]
             )
