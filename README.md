@@ -2,10 +2,6 @@
 
 ## Instruction to set up the code:
 
-## Clone the Repo using
-
-git clone git remote add origin https://github.com/shubham-309/Travel_Guide.git
-
 ## Instruction to create the environment:
 1. Create a .env file with following key-values:
   
