@@ -1,7 +1,5 @@
 # TravelMentor: Your Personalized Journey Planner
 
-## Instruction to set up the code:
-
 ## Instruction to create the environment:
 1. Create a .env file with following key-values:
   
