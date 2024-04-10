@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-st.set_page_config("TravelMentor: Your Personalized Journey Planner",page_icon="/home/shubham.pandey/personal/Tourism/langchain-demo/image.jpeg", layout="wide")
+st.set_page_config("TravelMentor: Your Personalized Journey Planner", layout="wide")
 
 session = Session()
 
